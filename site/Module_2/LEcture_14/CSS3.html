@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Combining_Selectors</title>
+        <style>
+            p.class1{
+                font-size:20px;
+                color:fuchsia;
+            }
+            section > article{
+                font-style:italic;
+                background-color:hotpink;
+            }
+            p span{
+                font-weight:bold;
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Hello I am Anupam</p>
+        <p class="class1">Hello I am Anupam</p>
+        <div class="class1">Hello I am Anupam</div>
+        <section>
+            <article>
+                I am 20 years old.
+            </article>
+            <article>
+                <p>
+                    I am 20 years old.
+                </p>
+            </article>
+        </section>
+        <p>
+            <span>I live in Begusarai.</span>
+        </p>
+    </body>
+</html>

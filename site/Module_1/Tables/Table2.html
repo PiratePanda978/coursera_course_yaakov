@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tables_2</title>
+        <style>
+            table{
+                background-color:palegoldenrod;
+            }
+            td{
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Html table with columns/rows spanning multiple cells</h1>
+        <table>
+            <tr>
+                <th></th>
+                <th scope="col">9:00 AM</th>
+                <th scope="col">10:00 AM</th>
+                <th scope="col">11:00 AM</th>
+            </tr>
+            <tr>
+                <th scope="row">Monday</th>
+                <td colspan="2">Geography</td>
+                <td>Maths</td>
+            </tr>
+            <tr>
+                <th scope="row">Tuesday</th>
+                <td>English</td>
+                <td colspan="2">English</td>
+            </tr>
+        </table>
+    </body>
+</html>

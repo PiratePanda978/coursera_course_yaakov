@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Pseudo_selectors</title>
+        <style>
+            header li{
+                list-style:none;
+            }
+            a:link,a:visited{
+                text-decoration:none;
+                background-color:green;
+                border: dotted blue;
+                color:yellow;
+                display:block;
+                width:200px;
+                text-align:center;
+                margin-bottom:2px;
+            }
+            a:hover, a:active{
+                background-color:red;
+            }
+            header li:nth-child(3){
+                font-style:italic;
+            }
+            section div:nth-child(odd){
+                background-color:grey;
+                width:50px;
+            }
+            section div:nth-child(2):hover{
+                background-color:red;
+                width : 50px;
+                cursor:pointer;
+            }
+            div{
+                width:50px;
+            }
+            span{
+                background-color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Pseudo_Class Selectors</h1>
+        <header>
+            <ul>
+                <li><a href="/" target="_blank">home</a></li>
+                <li><a href="https://www.coursera.org/programs/vellore-institute-of-technology-on-coursera-wy3nz" target="_blank">COusera_Course</a></li>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            </ul>
+        </header>
+        <section>
+            <div>DIV1</div>
+            <div>DIV2</div>
+            <div>DIV3</div>
+            <div>DIV4</div>
+            <span>Span 1</span>
+        </section>
+    </body>
+</html>
