@@ -2,11 +2,15 @@
     box-sizing: border-box;
     font-size: 20px;
 }
+body{
+    background-color:rgb(219, 217, 72);
+}
 
 h1{
     margin-bottom:10px;
     text-align:center;
     font-size:30px;
+    background-color:rgba(255, 94, 0, 0.575);
 }
 section{
     border:1px solid black;
@@ -44,6 +48,7 @@ p{
     text-align:center;
     font-weight:bold;
 }
+
 @media (min-width:768px) and (max-width:991px){
     #col1,#col2{
         width:50%;
