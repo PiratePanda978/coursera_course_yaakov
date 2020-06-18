@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(63, 245, 236);
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#header-nav{
+    background-color:white;
+}
+#logo{
+    background:url(images/download.png) no-repeat;
+    width:150px;
+    height:70px;
+    margin-top:10px;
+    margin-bottom:0;
+}
+.navbar-brand>a{
+    text-decoration:none;
+    font-size:13px;
+    font-weight:bold;
+    margin-left:10px;
+}
+.navbar-brand>p{
+    font-size:10px;
+    margin-top:0;
+    padding-top:0;
+    margin-left:10px;
+}
