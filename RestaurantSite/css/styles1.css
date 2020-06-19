@@ -8,6 +8,8 @@ body{
 }
 #body-back{
     background:url("../images/body-back.png") no-repeat;
+    height:100%;
+    
 }
 div.navbar-brand{
     margin-right:0;
