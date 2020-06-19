@@ -3,6 +3,9 @@ body{
     font-size:16px;
     font-family:Arial, Helvetica, sans-serif;
 }
+div.navbar-brand{
+    margin-right:0;
+}
 #header-nav{
     background:url(images/Sea.jpg);
 }
@@ -50,8 +53,10 @@ body{
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
-
+@media (min-width: 767px) and (max-width:991px) {
+    .navbar-brand>a{
+        font-size:1.5vw;
+    }
 }
 
 /********** Medium devices only **********/
@@ -87,3 +92,21 @@ body{
     }
 }
 
+
+#tile1, #tile2, #tile3{
+    background-color:rgb(201, 199, 199);
+    text-align:center;
+    margin-bottom:10px;
+}
+.row{
+    margin:0;
+}
+#menu-tiles>div{
+    padding:0;
+}
+#tile1{
+    margin-right:2px;
+}
+#tile3{
+    margin-left:2px;
+}
