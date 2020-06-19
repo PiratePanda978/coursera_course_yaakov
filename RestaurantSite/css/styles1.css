@@ -1,20 +1,16 @@
 body{
-    background:url(images/Sea.jpg) no-repeat;
     font-size:16px;
     font-family:Arial, Helvetica, sans-serif;
 }
+#header-nav{
+    background:url("../images/body-back.png") no-repeat;
+    width:100%;
+}
+#body-back{
+    background:url("../images/body-back.png") no-repeat;
+}
 div.navbar-brand{
     margin-right:0;
-}
-#header-nav{
-    background:url(images/Sea.jpg);
-}
-#logo{
-    background:url(images/download.png) no-repeat;
-    width:150px;
-    height:70px;
-    margin-top:10px;
-    margin-bottom:0;
 }
 .navbar-brand>a{
     text-decoration:none;
@@ -31,25 +27,10 @@ div.navbar-brand{
 }
 #navlist a:hover{
     font-weight:bold;
-    justify-content:center;
-    
+    justify-content:center; 
 }
 .nav-item>a{
     text-align: center;
-}
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-    #logo{
-        background:url(images/download-medium.png) no-repeat;
-    }
-    .navbar-brand>a{
-        font-size:15px;
-    }
-    div#logo{
-        margin:0;
-        width:110px;
-        height:33px;
-    }
 }
 
 /********** Extra small devices only **********/
@@ -95,7 +76,6 @@ div.navbar-brand{
 
 
 #tile1, #tile2, #tile3{
-    background-color:rgb(201, 199, 199);
     height:250px;
     width:100%;
     margin-bottom:20px;
@@ -108,11 +88,13 @@ div.navbar-brand{
     right:0;
     text-align:center;
     width:100%;
-    background:rgb(31, 30, 30);
-    opacity:0.8;
+    /*background:rgb(31, 30, 30);
+    opacity:0.8;*/
     text-transform:uppercase;
     text-decoration:none;
-    color:white;
+    color:black;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
 }
 #tile1:hover, #tile2:hover, #tile3:hover{
     box-shadow: 0 1px 5px 1px black;
@@ -144,4 +126,17 @@ div.navbar-brand{
 #copyright{
     text-align:center;
     font-size:50%;
+}
+#tile1, #tile2, #tile3{
+    padding:10px;
+    border-radius:10px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:black;
+}
+
+#jumbo, .jumbotron, .jumbotron-fluid, #jumbo>img{
+    padding:0;
+    border-radius:10px;
 }
