@@ -87,16 +87,10 @@ div.navbar-brand{
 
 /********** Large devices only **********/
 @media (min-width: 992px) and (max-width:1199px) {
-    #section1,#contact,#quote{
-        font-size:5px;
-    }
 }
 
 /******** Xtra Large***/
 @media (min-width:1200px){
-    #section1,#contact,#quote{
-        font-size:5px;
-    }
 }
 
 
@@ -145,4 +139,9 @@ div.navbar-brand{
 
 #quote>span{
     font-style:normal;
+}
+
+#copyright{
+    text-align:center;
+    font-size:50%;
 }
