@@ -55,7 +55,7 @@ div.navbar-brand{
 /********** Extra small devices only **********/
 @media (min-width: 767px) and (max-width:991px) {
     .navbar-brand>a{
-        font-size:1.5vw;
+        font-size:4vw;
     }
 }
 
@@ -90,23 +90,35 @@ div.navbar-brand{
         padding:0;
         border:solid 1px black;
     }
+    .row>section{
+        margin-bottom:10px;
+        text-align:center;
+    }
 }
 
 
 #tile1, #tile2, #tile3{
     background-color:rgb(201, 199, 199);
     text-align:center;
+    height:250px;
+    width:100%;
     margin-bottom:10px;
 }
 .row{
     margin:0;
 }
-#menu-tiles>div{
-    padding:0;
+#tile1:hover, #tile2:hover, #tile3:hover{
+    border:1px solid black;
 }
-#tile1{
-    margin-right:2px;
+#section1,#contact,#quote{
+    font-size:2vw;
 }
-#tile3{
-    margin-left:2px;
+
+#contact>a:hover, #contact>a:link, #contact>a:active{
+    text-decoration:none;
+    color:black;
+}
+
+#contact>a:hover{
+    font-weight:bold;
 }
