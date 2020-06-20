@@ -2,15 +2,6 @@ body{
     font-size:16px;
     font-family:Arial, Helvetica, sans-serif;
 }
-#header-nav{
-    background:url("../images/body-back.png") no-repeat;
-    width:100%;
-}
-#body-back{
-    background:url("../images/body-back.png") no-repeat;
-    height:100%;
-    
-}
 div.navbar-brand{
     margin-right:0;
 }
@@ -141,4 +132,5 @@ div.navbar-brand{
 #jumbo, .jumbotron, .jumbotron-fluid, #jumbo>img{
     padding:0;
     border-radius:10px;
+    height:200px;
 }
