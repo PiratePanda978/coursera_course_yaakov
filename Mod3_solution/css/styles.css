@@ -21,7 +21,7 @@ body{
     background-color: blue;
 }
 
-#main-content>p{
+#main-content>h1{
     font-weight:bold;
     font-size:3vw;
     background-color:grey;
@@ -30,5 +30,10 @@ body{
 
 #sec1>p, #sec2>p, #sec3>p{
     font-weight:bold;
+    font-size:3vw;
     background-color:white;
+}
+
+#header-nav{
+    background-color:yellow;
 }
