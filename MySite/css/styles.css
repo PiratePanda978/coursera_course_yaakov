@@ -1,0 +1,138 @@
+body{
+    background:url(images/Sea.jpg) no-repeat;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+div.navbar-brand{
+    margin-right:0;
+}
+#header-nav{
+    background:url(images/Sea.jpg);
+}
+#logo{
+    background:url(images/download.png) no-repeat;
+    width:150px;
+    height:70px;
+    margin-top:10px;
+    margin-bottom:0;
+}
+.navbar-brand>a{
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    margin-left:10px;
+    color:black;
+}
+.navbar-brand>p{
+    font-size:10px;
+    margin-top:0;
+    padding-top:0;
+    margin-left:10px;
+}
+#navlist a:hover{
+    font-weight:bold;
+    justify-content:center;
+    
+}
+.nav-item>a{
+    text-align: center;
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #logo{
+        background:url(images/download-medium.png) no-repeat;
+    }
+    .navbar-brand>a{
+        font-size:15px;
+    }
+    div#logo{
+        margin:0;
+        width:110px;
+        height:33px;
+    }
+}
+
+/********** Extra small devices only **********/
+@media (min-width: 767px) and (max-width:991px) {
+    .navbar-brand>a{
+        font-size:4vw;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    div#logo{
+        margin:0;
+        height:50px;
+    }
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    div#logo{
+        margin:0;
+        height:50px;
+    }
+}
+
+
+/********** Below XTRA SMALL **********/
+@media(min-width:320px) and (max-width:766px){
+    .navbar-brand>a{
+        font-size:4vw;
+    }
+    span.navbar-toggler-icon{
+        width:30px;
+        height:30px;
+        padding:0;
+    }
+    button.navbar-toggler{
+        padding:0;
+        border:solid 1px black;
+    }
+    .row>section{
+        margin-bottom:10px;
+        text-align:center;
+    }
+}
+
+
+#tile1, #tile2, #tile3{
+    background-color:rgb(201, 199, 199);
+    height:250px;
+    width:100%;
+    margin-bottom:10px;
+    position:relative;
+}
+
+#tile1>span, #tile2>span, #tile3>span{
+    position:absolute;
+    bottom:0;
+    right:0;
+    text-align:center;
+    width:100%;
+    background:rgb(31, 30, 30);
+    opacity:0.8;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:white;
+}
+#tile1:hover, #tile2:hover, #tile3:hover{
+    border:1px solid black;
+}
+#section1,#contact,#quote{
+    font-size:2vw;
+}
+
+#contact>a:hover{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+#contact>a{
+    color:black;
+}
+
+section#contact{
+    text-align:center;
+}
