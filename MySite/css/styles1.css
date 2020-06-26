@@ -134,3 +134,37 @@ div.navbar-brand{
     border-radius:10px;
     height:200px;
 }
+
+hr{
+    width:50%;
+}
+
+/*Menu Individual Tiles*/
+.item-image>img{
+    margin:auto;
+    width:100%;
+    height:150px;
+}
+
+.item-desc{
+    font-size:13px;
+    padding-top:20px;
+}
+
+.main-row{
+    margin:0;
+    margin-bottom:20px;
+}
+
+.item-cell{
+    padding:0;
+}
+
+.item-cell:hover{
+    box-shadow: 0 1px 5px 1px black;
+    border-radius:10px;
+}
+
+.item-cell>.row{
+    margin:0;
+}
