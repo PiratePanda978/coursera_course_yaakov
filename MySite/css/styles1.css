@@ -158,6 +158,7 @@ hr{
 
 .item-cell{
     padding:0;
+    margin-bottom:10px;
 }
 
 .item-cell:hover{
