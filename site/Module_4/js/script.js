@@ -176,17 +176,29 @@
 
 //Closures//
 
-function makeMultiplier(multiplier){
-    function b(){
-        console.log("The multiplier is : "+multiplier);
-    }
-    b();
-    return(
-        function (x){
-            return multiplier*x;
-        }
-    )
-}
+// function makeMultiplier(multiplier){
+//     function b(){
+//         console.log("The multiplier is : "+multiplier);
+//     }
+//     b();
+//     return(
+//         function (x){
+//             return multiplier*x;
+//         }
+//     )
+// }
 
-var double = makeMultiplier(2);
-console.log(double(10));
+
+// var double = makeMultiplier(2);
+// console.log(double(10));
+// Name spaces
+
+(function (window) {
+    var GreetHello = {};
+    GreetHello.name = "anupam";
+    GreetHello.sayHello = function(){
+        console.log("Hello "+GreetHello.name);
+    }
+    window.GreetHello = GreetHello;
+} )(window);
+
