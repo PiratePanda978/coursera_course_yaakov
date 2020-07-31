@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-size:16px;
     font-family:Arial, Helvetica, sans-serif;
@@ -12,15 +15,15 @@ div.navbar-brand{
     margin-left:10px;
     color:black;
 }
-.navbar-brand>p{
+/* .navbar-brand>p{
     font-size:10px;
     margin-top:0;
     padding-top:0;
     margin-left:10px;
-}
+} */
 #navlist a:hover{
     font-weight:bold;
-    justify-content:center; 
+    /* justify-content:center;  */
 }
 .nav-item>a{
     text-align: center;
@@ -34,7 +37,6 @@ div.navbar-brand{
     span.navbar-toggler-icon{
         width:30px;
         height:30px;
-        padding:0;
     }
     button.navbar-toggler{
         padding:0;
@@ -43,9 +45,6 @@ div.navbar-brand{
     .row>section{
         margin-bottom:10px;
         text-align:center;
-    }
-    .navbar-brand>a{
-        font-size:4vw;
     }
 }
 
@@ -92,9 +91,9 @@ div.navbar-brand{
 #tile1:hover, #tile2:hover, #tile3:hover{
     box-shadow: 0 1px 5px 1px black;
 }
-#section1,#contact,#quote{
+/* #section1,#contact,#quote{
     font-size:2vw;
-}
+} */
 
 #contact>a:hover{
     text-decoration:none;
