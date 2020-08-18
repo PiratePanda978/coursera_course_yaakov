@@ -1,9 +1,7 @@
-*{
-    box-sizing: border-box;
-}
 body{
     font-size:16px;
     font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(157, 157, 238);
 }
 div.navbar-brand{
     margin-right:0;
@@ -15,15 +13,8 @@ div.navbar-brand{
     margin-left:10px;
     color:black;
 }
-/* .navbar-brand>p{
-    font-size:10px;
-    margin-top:0;
-    padding-top:0;
-    margin-left:10px;
-} */
 #navlist a:hover{
     font-weight:bold;
-    /* justify-content:center;  */
 }
 .nav-item>a{
     text-align: center;
@@ -47,25 +38,6 @@ div.navbar-brand{
         text-align:center;
     }
 }
-
-/*********Small Devices*****/
-@media (min-width:577px) and (max-width:767px){
-
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/********** Large devices only **********/
-@media (min-width: 992px) and (max-width:1199px) {
-}
-
-/******** Xtra Large***/
-@media (min-width:1200px){
-}
-
 
 #tile1, #tile2, #tile3{
     height:250px;
@@ -128,16 +100,13 @@ div.navbar-brand{
     color:black;
 }
 
-#jumbo, .jumbotron, .jumbotron-fluid, #jumbo>img{
-    padding:0;
-    border-radius:10px;
-    height:200px;
-}
-
 hr{
     width:50%;
 }
 
+#menu-tiles{
+    margin-top:20px;
+}
 /*Menu Individual Tiles*/
 .item-image>img{
     margin:auto;
